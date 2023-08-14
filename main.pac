@@ -1,9 +1,7 @@
 function FindProxyForURL(url, host)
 {
     list_of_proxy = [
-        "62.201.219.58:8585",
-        "185.165.56.67:8080",
-        "91.65.94.145:80"
+        "http://111111:11111111@45.89.18.248:11068"
     ]
     len_of_list_of_proxy = list_of_proxy.length
     t = new Date().getSeconds()
